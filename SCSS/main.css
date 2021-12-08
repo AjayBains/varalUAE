@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&family=Noto+Sans:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 16px;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.wrapper {
+  padding: 1.5rem 3rem;
+}
+
+.btn {
+  width: 4rem;
+  padding: 0.5rem 1rem;
+  border: none;
+}
+
+.btn-primary {
+  background-color: #525ded;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    padding: 0.5rem 1rem;
+  }
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 3rem;
+}
+
+.menu {
+  width: 45%;
+}
+
+.menuList {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.listLink {
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #464646;
+}
+
+.listItem:last-child .listLink {
+  color: white;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger__lines {
+  width: 30px;
+  height: 5px;
+  background-color: black;
+  position: relative;
+}
+
+.hamburger__lines:after, .hamburger__lines:before {
+  content: "";
+  width: 30px;
+  height: 5px;
+  position: absolute;
+  background-color: black;
+}
+
+.hamburger__lines:after {
+  top: 10px;
+}
+
+.hamburger__lines:before {
+  top: -10px;
+}
+
+.search {
+  text-align: right;
+}
+
+.searchBox {
+  padding: 0.4rem;
+  width: 20rem;
+  border: 2px solid #525ded;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .menu {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .menu {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .menu {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+/*# sourceMappingURL=main.css.map */

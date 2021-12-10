@@ -1,0 +1,20 @@
+.missionStatement {
+  text-align: center;
+  .mission__heading--1 {
+    text-decoration: underline solid 4px orange;
+  }
+  h2 {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  .mission__statement {
+    width: 40%;
+    margin: 1rem auto;
+    color: gray;
+    font-weight: 700;
+    text-align: center;
+  }
+}

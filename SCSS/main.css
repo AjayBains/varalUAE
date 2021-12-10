@@ -12,7 +12,7 @@ body {
 }
 
 .wrapper {
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 5rem;
 }
 
 .btn {
@@ -28,6 +28,137 @@ body {
 @media screen and (max-width: 1200px) {
   .wrapper {
     padding: 0.5rem 1rem;
+  }
+}
+
+.header {
+  margin-top: 5rem;
+}
+
+.subheading {
+  min-height: 20rem;
+}
+
+.subheading__pic {
+  width: 100%;
+}
+
+.tag {
+  color: #525ded;
+}
+
+.heading {
+  font-size: 1.7rem;
+  font-weight: 700;
+  position: relative;
+  word-spacing: 0.1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  line-height: 2rem;
+}
+
+.heading::after {
+  content: "";
+  background-color: orange;
+  width: 160px;
+  height: 4px;
+  position: absolute;
+  top: 1.8rem;
+  left: 0;
+}
+
+.subheading__text {
+  color: gray;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+
+.buttons {
+  margin-top: 2.5rem;
+}
+
+.btn-cta {
+  width: 49%;
+  margin-right: 0;
+  margin-left: 0;
+  padding: 1rem 0.5rem;
+  color: white;
+  border: 2px solid #525ded;
+}
+
+.btn-cta--primary {
+  margin-left: -0.27em;
+  color: #525ded;
+  background-color: white;
+}
+
+.subheadingEndingTag {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 0.5rem;
+}
+
+.subheadingEndingTag .tag--img {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  padding: 2px;
+  border: 1px solid #525ded;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subheadingEndingTag .tag--img .span--img {
+  width: 95%;
+  position: relative;
+  top: -0.1rem;
+}
+
+@media screen and (min-width: 600px) {
+  .heading {
+    text-align: left;
+    width: 40%;
+  }
+  .subheading {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .subheading__img {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    -ms-flex-item-align: start;
+        -ms-grid-row-align: start;
+        align-self: start;
+    position: relative;
+    top: -11rem;
+    left: 6rem;
+    margin-bottom: -11rem;
+  }
+  .subheading__content {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1;
+  }
+  .subheadingEndingTag {
+    text-align: center;
   }
 }
 

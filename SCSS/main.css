@@ -201,14 +201,14 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   margin-top: 4rem;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .company__logo {
@@ -220,9 +220,10 @@ section {
 }
 
 .company__text {
-  color: gray;
+  color: #9b9a9a;
   font-size: 0.9rem;
   margin-bottom: 1rem;
+  width: 90%;
 }
 
 .company__link {

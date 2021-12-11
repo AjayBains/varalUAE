@@ -1,0 +1,26 @@
+.companies {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 3rem;
+}
+
+.company__logo {
+  margin-bottom: 1.5rem;
+}
+
+.company__heading {
+  margin-bottom: 1rem;
+}
+
+.company__text {
+  color: gray;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.company__link {
+  text-decoration: none;
+  color: orange;
+}
